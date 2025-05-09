@@ -9,6 +9,6 @@ while(noAngkot <= angkotBeroperasi) {
   noAngkot++;
 }
 
-for(angkotBeroperasi = 6; angkotBeroperasi <= jmbAngkot; angkotBeroperasi++) {
-  console.log(`Angkot No. ${angkotBeroperasi} sedang rusak`);
+for(noAngkot = angkotBeroperasi + 1; noAngkot <= jmbAngkot; noAngkot++) {
+  console.log(`Angkot No. ${noAngkot} sedang rusak`);
 }
