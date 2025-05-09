@@ -10,5 +10,6 @@ switch(items) {
   case "softdrink":
     alert(`makanan atau miniman tidak sehat`);
     break;
-  default("Anda memasukan makanan atau minuman yang salah");
+  default:
+    alert("Anda memasukan makanan atau minuman yang salah");
 }
